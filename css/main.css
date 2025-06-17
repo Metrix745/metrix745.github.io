@@ -386,9 +386,8 @@ h5 {
 .service-card p {
   font-size: 1.5rem;
   line-height: 1.7;
-  text-align: center;
   color: var(--gray-text-color);
-  padding: 0 1.5em;
+  padding: 0 1.5rem;
 }
 
 /* Works */
