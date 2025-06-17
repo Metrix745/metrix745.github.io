@@ -246,15 +246,16 @@ h5 {
 
 .hero-img {
   flex: 0 0 41.6667%;
-  text-align: right !important;
+  text-align: center !important;
   padding: 1.5rem 1.5rem;
 }
 
 .hero-img img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   vertical-align: bottom;
   border-radius:50%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 
 .about-social-list {
@@ -387,6 +388,7 @@ h5 {
   line-height: 1.7;
   text-align: center;
   color: var(--gray-text-color);
+  padding: 0 1.5rem;
 }
 
 /* Works */
