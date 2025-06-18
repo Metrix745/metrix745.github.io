@@ -144,7 +144,11 @@
               lorem ipsum dolor sit amet consectetur adipisicing elit
             </p>
             <div class="about-download-btn">
-              <a href="nharrellCV.pdf" target="_blank" class="btn btn-white">Download CV</a>
+              <a href="nharrellCV.pdf" class="btn btn-white" 
+                 onclick="event.preventDefault(); 
+                 document.getElementById('cv-message').style.display='block'; 
+                 window.open(this.href, '_blank');">Download CV</a>
+              <div id="cv-message" style="display:none; margin-top:10px;">Last updated 6/25</div>
             </div>
           </div>
           <div class="about-skills">
