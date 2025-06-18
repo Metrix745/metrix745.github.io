@@ -4,7 +4,8 @@
 :root {
   --primary-bg-color: #f7fbfd;
   --primary-accent: #0c1618;
-  --secondary-accent: #6f1d1b;
+  --secondary-accent: #1b4d6f;
+  --alternate_secondary-accent: #5583a1;
 
   --main-text-color: #0c1618;
   --gray-text-color: #565a5b;
@@ -76,7 +77,7 @@ body {
 }
 
 .btn:active {
-  background-color: #8b4a48;
+  background-color: var(--alternate_secondary-accent);
 }
 
 .btn-white {
