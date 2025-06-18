@@ -13,6 +13,7 @@ window.addEventListener("load", function () {
   setTimeout(hidePreloader, 1700);
 });
 
+//Scroll progress bar
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -22,6 +23,7 @@ function scrollFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
+//reveal cv upload date
 cvBtn.onclick = () => {
   document.getElementById('cv-message').style.display='block';
 };
