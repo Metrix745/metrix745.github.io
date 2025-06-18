@@ -1,6 +1,7 @@
 const nav = document.querySelector("#nav");
 const navBtn = document.querySelector("#nav-btn");
 const navBtnImg = document.querySelector("#nav-btn-img");
+const cvBtn = document.querySelector("#cv-button");
 
 //Preloader
 function hidePreloader() {
@@ -20,6 +21,10 @@ function scrollFunction() {
   let scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+cvBtn.onclick = () => {
+  document.getElementById('cv-message').style.display='block';
+};
 
 //Hamburger menu
 navBtn.onclick = () => {
