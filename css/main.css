@@ -205,6 +205,19 @@ h5 {
   font-weight: 600;
 }
 
+.progress-container {
+  width: 100%;
+  height: 2px;
+  background: var(--gray-color);
+  z-index: 100;
+}
+
+.progress-bar {
+  height: 2px;
+  background: var(--secondary-accent);
+  width: 0%;
+}
+
 /* Hero section */
 .hero {
   position: relative;

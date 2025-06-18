@@ -12,6 +12,15 @@ window.addEventListener("load", function () {
   setTimeout(hidePreloader, 1700);
 });
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
 //Hamburger menu
 navBtn.onclick = () => {
   if (nav.classList.toggle("open")) {
