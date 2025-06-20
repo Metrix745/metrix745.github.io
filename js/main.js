@@ -10,7 +10,7 @@ function hidePreloader() {
 }
 
 window.addEventListener("load", function () {
-  setTimeout(hidePreloader, 1700);
+  setTimeout(hidePreloader, 100);
 });
 
 //Scroll progress bar
