@@ -31,6 +31,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+img {
+  user-select: none;
+}
+
 .container {
   padding: 0 3.2rem;
   max-width: 120rem;
