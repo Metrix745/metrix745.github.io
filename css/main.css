@@ -437,12 +437,14 @@ h5 {
   display: inline-block;
 }
 
-.project-box:hover .project-mask {
+.project-box:hover .project-mask,
+.project-box:focus-within .project-mask {
   opacity: 1;
   visibility: visible;
 }
 
-.project-box:hover .project-mask .project-caption {
+.project-box:hover .project-mask .project-caption,
+.project-box:focus-within .project-mask .project-caption {
   bottom: 30px;
   opacity: 1;
 }
